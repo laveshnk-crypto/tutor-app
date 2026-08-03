@@ -206,7 +206,7 @@ Hey, I'm Lavesh! I provide expert, 1-on-1 tutoring tailored directly to your lea
         {/* Right — photo panel */}
         <div className="relative min-h-[50vh] md:min-h-0 bg-muted overflow-hidden">
           <img
-            src="/photo.jpg"
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&h=1100&fit=crop&auto=format"
             alt="Tutor working one-on-one with a student at a desk"
             className="absolute inset-0 w-full h-full object-cover"
           />
