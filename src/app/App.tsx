@@ -90,7 +90,7 @@ export default function App() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
-  async function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSubmitting(true);
     try {
@@ -206,7 +206,7 @@ Hey, I'm Lavesh! I provide expert, 1-on-1 tutoring tailored directly to your lea
         {/* Right — photo panel */}
         <div className="relative min-h-[50vh] md:min-h-0 bg-muted overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&h=1100&fit=crop&auto=format"
+            src="/photo.jpg"
             alt="Tutor working one-on-one with a student at a desk"
             className="absolute inset-0 w-full h-full object-cover"
           />
