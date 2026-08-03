@@ -94,7 +94,7 @@ export default function App() {
     e.preventDefault();
     setSubmitting(true);
     try {
-      const res = await fetch("https://formspree.io/f/mgogggrk", {
+      const res = await fetch(`https://formspree.io/f/${import.meta.env.VITE_FORMSPREE_ID}`, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify(formData),
